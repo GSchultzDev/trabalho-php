@@ -22,7 +22,7 @@
 
         while ($f1 = $d1->read()) { 
             $fext = substr($f1,strrpos($f1,".")); 
-            if (in_array($fext, $ext_array)) { /
+            if (in_array($fext, $ext_array)) {
                 continue;
             } else {
                 if(($f1!= '.') && ($f1!= '..') && ($f1 != "index.php") && ($f1 != "exe01_mostra.php") && ($f1 != "exe02_mostra.php")) {

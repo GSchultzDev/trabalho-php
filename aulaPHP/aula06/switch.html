@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../../css/index.css">
+</head>
+<body>
+    <button class="voltar"><a href="index.php"><i class="bi bi-box-arrow-in-left"></a></i></button>
+    <div>
+        <h3>Pagamento de compras</h3>
+        <form method="get" action="switch.php">
+            Informe o valor total <input type="number" name="num" >
+            <br>
+            <br>
+            <fieldset><legend>Pagamento:</legend>
+                <input type="radio" name="oper" value="1">Pagamento a vista e desconto de 10%
+                <br>
+                <input type="radio" name="oper" value="2">Pagamento a vista e juros de 5%
+                <br>
+                <input type="radio" name="oper" value="3">Pagamento a vista e juros de 10%
+                <br>
+            </fieldset>
+            <br>
+            <input type="submit" value="Calcular">
+            <br>
+            <br>
+        </form>
+    </div>
+</body>
+</html>

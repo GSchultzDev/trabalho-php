@@ -1,0 +1,23 @@
+:root {
+    --cor-primaria: #202020;
+    --cor-secundaria: #161616;
+    --cor-detalhes: #FF0077;
+    --cor-branco: #fff;
+    --cor-cinza: #5a5a5a;
+    
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branco);
+}
